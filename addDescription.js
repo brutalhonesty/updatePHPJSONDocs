@@ -35,7 +35,7 @@ var Stagger = function (data, stagger, fn, cb) {
 var jsdom = require('jsdom');
 var phpData = require('./data.php.json');
 var fs = require('fs');
-var jquery = fs.readFileSync("./jquery.js", "utf-8");
+var jquery = fs.readFileSync("./lib/jquery.js", "utf-8");
 var t = new Stagger(phpData, 4000, function (index, phpItem) {
 	var url = phpItem.url + '?setbeta=1&beta=1';
 	console.log(url);
