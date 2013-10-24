@@ -1,0 +1,36 @@
+{
+  "name": "updatePHPDocs",
+  "description": "NodeJS script to recursively call the PHP site and get the description of each function and update the JSON file.",
+  "version": "0.0.1",
+  "url": "https://github.com/brutalhonesty/updatePHPJSONDocs",
+  "homepage": "https://github.com/brutalhonesty/updatePHPJSONDocs",
+  "author": {
+    "name": "Adam Schodde",
+    "email": "sparky1010+github@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/brutalhonesty/updatePHPJSONDocs"
+  },
+  "bugs": {
+    "url": "https://github.com/brutalhonesty/updatePHPJSONDocs/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/brutalhonesty/updatePHPJSONDocs/blob/master/LICENSE"
+    }
+  ],
+  "engines": {
+    "node": ">=0.10"
+  },
+  "dependencies": {
+    "jsdom": "~0.8.8",
+    "jquery": "~1.8.3"
+  },
+  "keywords": [
+    "PHP"
+  ],
+  "readme": "Update PHP Docs\n=========\nNodeJS script to recursively call the PHP site and get the description of each function and update the JSON file.\n\nAuthor\n------\n[Adam Schodde]\n\nVersion\n-------\n\n0.0.1\n\n\nRun\n--------------\n\n```sh\nnpm install\nnode main.js\n```\n\n\nLicense\n-------\n\n[MIT]\n\n\t[Adam Schodde]: http://github.com/brutalhonesty\n\t[MIT]: http://www.tldrlegal.com/license/mit-license",
+  "readmeFilename": "README.md",
+}
