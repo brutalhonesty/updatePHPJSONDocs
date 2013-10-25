@@ -62,6 +62,7 @@ var t = new Stagger(phpData, 4000, function (index, phpItem, store) {
 		}
         store[index] = phpItem;
         //indexStore.push(index);
+        window.close();
 	}});
 }, function (store) {
     fs.writeFile('newData.json', JSON.stringify(store), function(error) {
